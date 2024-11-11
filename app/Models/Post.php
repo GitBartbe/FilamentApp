@@ -27,7 +27,7 @@ class Post extends Model
     // Specify the casts for non-scalar fields
     protected $casts = [
         'tags' => 'array', // Cast the 'tags' field to an array
-        
+
     ];
 
     /**
@@ -38,4 +38,5 @@ class Post extends Model
     {
         return $this->belongsTo(Category::class);
     }
+
 }
