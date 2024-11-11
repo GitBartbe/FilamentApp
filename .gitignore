@@ -1,0 +1,66 @@
+# Laravel specific
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+npm-debug.log
+yarn-error.log
+.DS_Store
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+
+# Ignore IDE and system files
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Ignore Composer dependencies
+composer.phar
+
+# Ignore Laravel Mix specific files
+/public/mix-manifest.json
+/public/hot
+/public/css/
+public/js/
+
+# Ignore deployment files
+.env.*
+.env.backup
+.env.*.backup
+
+# Ignore database dump files
+*.sql
+*.sqlite
+*.sqlite3
+
+# Laravel Horizon specific
+horizon.pid
+
+# Ignore compiled files
+/public/js/*
+/public/css/*
+/public/hot
+/resources/js/*
+/resources/css/*
+
+# Ignore package manager specific files
+node_modules/
+yarn.lock
+package-lock.json
+npm-debug.log*
